@@ -38,7 +38,7 @@ you can **hold** dice between rolls to lock their values. When all dice are held
 Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/tenzies-game.git
+git clone https://github.com/ceezign/tenzies-game-react-.git
 cd tenzies-game
 npm install
 npm run dev
@@ -84,6 +84,13 @@ function App() {
 
 ---
 
+## ✨ Example Screenshot
+![tenzies-game screenshot](/src/assets/images/Screenshot.png)
+![tenzies-game screenshot](/src/assets/images/Screenshot1.png)
+![tenzies-game screenshot](/src/assets/images/Screenshot2.png)
+
+---
+
 ## 🔮 Future Improvements
 
 - Add a **timer** to track how long it takes to win.  
@@ -94,11 +101,6 @@ function App() {
 - Add a **dark mode** toggle for better user experience.
 
 ---
-
-## ✨ Example Screenshot
-![tenzies-game screenshot](/src/assets/images/Screenshot.png)
-![tenzies-game screenshot](/src/assets/images/Screenshot1.png)
-![tenzies-game screenshot](/src/assets/images/Screenshot2.png)
 
 ```
 🎲 [1] [3] [3] [5] [3]

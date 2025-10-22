@@ -38,7 +38,7 @@ export default function App(){
 
   function rollDice(){
     if (!gameWon) {
-      setDice(prevDie => prevDie.map(die => 
+      setDice(oldDie => oldDie.map(die => 
       die.isHeld ?
         die :
         {...die, value: Math.ceil(Math.random() * 6) } 
@@ -58,12 +58,12 @@ export default function App(){
 
 
   const diceElements = dice.map(dieObj => <Die 
-                                                  key={dieObj.id} 
-                                                  value={dieObj.value}
-                                                  isHeld={dieObj.isHeld}
-                                                  id={dieObj.id}
-                                                  hold={hold}
-                                                  />)
+                                              key={dieObj.id} 
+                                              value={dieObj.value}
+                                              isHeld={dieObj.isHeld}
+                                              id={dieObj.id}
+                                              hold={hold}
+                                            />)
 
 
   return(
